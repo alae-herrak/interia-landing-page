@@ -5,26 +5,26 @@ import IMG8 from "../assets/IMG8.jpg";
 
 const Section6 = () => {
   return (
-    <section className="flex w-full flex-col items-center gap-3 lg:flex-row lg:justify-center lg:gap-0">
+    <section className="flex w-full flex-col items-center gap-3 md:flex-wrap md:flex-row justify-center lg:gap-0">
       <img
         src={IMG5}
         alt=""
-        className="h-96 w-96 object-cover object-center lg:flex-1"
+        className="w-80 lg:w-1/4 object-cover object-center h-80"
       />
       <img
         src={IMG6}
         alt=""
-        className="h-96 w-96 object-cover object-center lg:flex-1"
+        className="w-80 lg:w-1/4 object-cover object-center h-80"
       />
       <img
         src={IMG7}
         alt=""
-        className="h-96 w-96 object-cover object-center lg:flex-1"
+        className="w-80 lg:w-1/4 object-cover object-center h-80"
       />
       <img
         src={IMG8}
         alt=""
-        className="h-96 w-96 object-cover object-center lg:flex-1"
+        className="w-80 lg:w-1/4 object-cover object-center h-80"
       />
     </section>
   );
